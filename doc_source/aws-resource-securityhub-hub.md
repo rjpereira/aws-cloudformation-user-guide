@@ -83,7 +83,7 @@ Description: "Example Hub with Tags"
                 Tags:
                     "key1" : "value1"
                     "key2" : "value2"
-            Outputs:
-                HubArn:
-                    Ref: !Ref ExampleHubWithTags
+    Outputs:
+        HubArn:
+            Ref: !Ref ExampleHubWithTags
 ```
